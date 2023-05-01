@@ -1,0 +1,331 @@
+
+:root {
+  --primary: #1A120B;
+  --bg: rgb(255, 255, 255);
+  --secondary:#D5CEA3;
+}
+/* index */
+a {
+  text-decoration: none;
+}
+#top {
+  background-color: var(--primary);
+  text-align: center;
+  color: var(--bg);
+}
+#navbar {
+  border-bottom: 0.1rem var(--primary) solid;
+}
+#navbarmenu {
+  justify-content: center;
+}
+#menu a::after {
+  content: "";
+  display: block;
+  border-bottom: 0.1rem var(--secondary) solid;
+  transform: scale(0);
+  transform-origin: 0 0;
+  transition: 0.4s linear;
+}
+#menu a:hover:after {
+  transform: scaleX(1);
+}
+
+#ks {
+  margin-right: 16rem;
+}
+.jumbotron {
+    
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+}
+#cardhome {
+    background-color: #102b26;
+    color:white;
+    padding-bottom: 2.25rem;
+}
+#imgn {
+  height: 225px;
+}
+#card {
+  margin-left: 6rem;
+}
+#imgh img {
+  height: 220px;
+}
+#imgj img {
+  height: auto;
+}
+
+#logo img {
+  height: 100px;
+}
+
+/* about */
+.abouther img {
+  width: 400px;
+}
+
+.abouts {
+ height: 170px;
+ position: relative;
+ overflow: hidden;
+}
+.abouts img {
+  object-fit: cover;
+  width: 100%;
+  height: 80%;
+}
+.abouts .teks {
+  color: white;
+  
+  padding-top: 2rem;
+}
+.ourp a {
+  font-size: 2rem;
+  color: var(--primary);
+}
+.ourp a {
+  padding-right: 1rem;
+}
+.ourp a:hover {
+  color: var(--secondary);
+}
+/* contact */
+.logo img {
+  background-color: var(--primary);
+  border-radius: 50%;
+  width:30px;
+  margin-right: 0.5rem;
+}
+.contactbg {
+  background-image: url(/img/bg-contact.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    min-height: 100vh;
+}
+.contactform {
+  padding: 2rem;
+  border-radius: 
+  20px;
+  background: linear-gradient(180deg, rgba(16, 43, 38, 0.7) 0%, rgba(16, 43, 38, 0.7) 100%);
+}
+.contactform label {
+  color: white;
+}
+.btn-warna {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  background-color: #102b26;
+  color: white;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
+}
+.btn-warna:hover {
+  background: linear-gradient(180deg, rgba(16, 43, 38, 0.7) 0%, rgba(16, 43, 38, 0.7) 100%);
+  color: white;
+}
+/* footer */
+.vectorf {
+  padding-right: 1rem;
+}
+.btn-hover:hover {
+  background-color: var(--secondary);
+  color: #000000;
+}
+.btn-hijau {
+  background-color:var(--primary);
+  color:rgb(255, 255, 255);
+}
+#footer {
+  background-color: var(--primary);
+  color: white;
+}
+#sosmed {
+  display: inline-block;
+  position: relative;
+  font-size: 4rem;
+}
+#sosmed a {
+  color: white;
+  transition: border 0.9s;
+  height: auto;
+  transition: transform 0.9s;
+}
+#sosmed a:hover {
+  color: var(--secondary);
+  border: 3px solid var(--secondary);
+  border-radius: 60%;
+}
+/* gallery */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.image-item {
+  width: 100%;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  margin: 8px 0;
+}
+.cardcanon img {
+  height: 205px;
+}
+/* nikon */
+#bt {
+  border-top: 0.1rem var(--primary) solid;
+}
+#bt1 {
+  border-top: 0.1rem var(--primary) solid;
+  border-bottom: 0.1rem var(--primary) solid;
+}
+#btnshop3 {
+  padding: 0.3rem ;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: #000000;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+}
+#btnshop4 {
+  padding: 0.3rem ;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: #000000;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+}
+button {
+  border: none;
+}
+#btnshop1 {
+  padding: 0.3rem;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: #FF7A00;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+  
+}
+#btnshop2 {
+  padding: 0.3rem;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: #04CC00;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+}
+#teksc p {
+  font-size: 0.6rem;
+}
+.logo1 {
+  background-color:black;
+  border-radius: 50%;
+  width:25px;
+}
+.diskon {
+  background-color: var(--primary);
+  padding: 1rem;
+  color: white;
+}
+#cardteks p {
+  font-size: 0.8rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  padding-right: 3rem;
+}
+#cardteks h5 {
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+#cardproduk {
+  background-color: var(--primary);
+  color: white;
+}
+#imgc img {
+  aspect-ratio: 1/1;
+  border-radius: 20px;
+  object-fit: cover;
+  
+}
+#star img {
+  width: 25px;
+  margin: 0 0.2rem;
+  
+}
+.review {
+  padding: 2.2rem;
+}
+.review1 {
+  padding: 0.5rem;
+}
+#overflow0 {
+  background-color: var(--primary);
+  margin-bottom: 2rem;
+  margin-top: 8rem;
+  color: white;
+
+}
+
+#entry {
+  overflow: hidden;
+  position: relative;
+  top: -5rem;
+  margin-left: 5rem;
+  width: 250px;
+}
+.produkbadge {
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  
+ }
+ .produkbadge img {
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+ }
+ .produkbadge .teks {
+   color: white;
+ }
+ .teksbadge h1 {
+text-align: center;
+font-size: 4rem;
+margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+  .jumbocard {
+    margin: auto;
+    height: 1;
+  }
+  
+  #entry {
+    display: none;
+  }
+  .teksbadge h1 {
+    font-size: 1.5rem;
+  }
+  #menu a:hover::after {
+    transform: scale(0.2);
+  }
+  #menu a::after {
+    transform-origin: 0 0;
+    border-bottom: 0.5rem var(--secondary) solid;
+  }
+
+}

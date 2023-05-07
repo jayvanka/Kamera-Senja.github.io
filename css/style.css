@@ -103,7 +103,7 @@ a {
   margin-right: 0.5rem;
 }
 .contactbg {
-  background-image: url(/img/bg-contact.jpg);
+  background-image: url(../img/bg-contact.jpg);
   background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
